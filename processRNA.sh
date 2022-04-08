@@ -167,5 +167,5 @@ Rscript rbin/simple_DGE.R $INPUT_DIR $target_dir
 
 # python script to output standard visuals for results
 
-python3 script.py $resultsfile $OUTPUT_DIR
+python3 script.py -i $resultsfile -o $OUTPUT_DIR
 
