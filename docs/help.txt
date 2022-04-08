@@ -1,0 +1,17 @@
+\033[1mSYNTAX\033[0m
+------
+
+\033[1mbash processRNA.sh\033[0m [\033[1m-h\033[0m] [\033[1m-d\033[0m]
+                   [\033[1m-i\033[0m \033[4mpath_to_input_dir\033[0m] [\033[1m-o\033[0m \033[4mpath_to_output_dir\033[0m]
+                   [\033[1m-e\033[0m \033[4mpath_to_venv\033[0m]
+
+\033[1mOPTIONS\033[0m
+-------
+
+\033[1m-h\033[0m                        help message
+\033[1m-d\033[0m                        detailed documentation
+
+\033[1m-i\033[0m \033[4mpath_to_input_dir\033[0m      path to an existing input directory - \033[3mREQUIRED\033[0m
+\033[1m-o\033[0m \033[4mpath_to_output_dir\033[0m     path to an existing output directory - \033[3mREQUIRED\033[0m
+
+\033[1m-e\033[0m \033[4mpath_to_venv\033[0m           path to the virtual environment (defaults to ~/.venv)
